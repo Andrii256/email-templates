@@ -1,0 +1,329 @@
+   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+   <html xmlns="http://www.w3.org/1999/xhtml">
+
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Old Gray</title>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+
+
+      <style>
+         @font-face {
+            font-family: "ILShakeFest";
+            src: url("http://newdesign.glockapps.com/wp-content/themes/glock-apps-theme/img/email/old-gray/ILShakeFest.ttf");
+         }
+
+         @font-face {
+            font-family: 'Gothic';
+            font-style: normal;
+            font-weight: normal;
+            src: local('http://newdesign.glockapps.com/wp-content/themes/glock-apps-theme/img/email/old-gray/UnitGotic.woff'), url('http://newdesign.glockapps.com/wp-content/themes/glock-apps-theme/img/email/old-gray/UnitGotic.woff') format('woff');
+         }
+
+         body {
+            margin: 0;
+            padding: 0;
+            color: #000000;
+            font-family: 'Gothic', Arial, sans-serif;
+         }
+
+         .big-bg {
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-image: url('http://newdesign.glockapps.com//wp-content/themes/glock-apps-theme/img/email/old-gray/big-bg.png');
+            max-width: 624px;
+            margin-right: auto;
+            margin-left: auto;
+         }
+
+         .table {
+            width: 624px;
+            background-color: #ffffff;
+            margin-right: auto;
+            margin-left: auto;
+            background-repeat: no-repeat;
+         }
+
+         .table--top {
+            background-size: 100% auto;
+            background-image: url('http://newdesign.glockapps.com//wp-content/themes/glock-apps-theme/img/email/old-gray/castleAndMrSkull.png');
+            background-repeat: no-repeat;
+         }
+
+         .table--middle {
+            background-size: 100% 100%;
+            background-position: bottom;
+            background-image: url('http://newdesign.glockapps.com//wp-content/themes/glock-apps-theme/img/email/old-gray/black-line.png');
+            background-repeat: no-repeat;
+            color: #ffffff;
+         }
+
+         .table--bottom {
+            padding-bottom: 27px;
+         }
+
+         .table__mobile__illustration {
+            display: none;
+         }
+
+         .table__title {
+            margin-top: 89px;
+            margin-left: 45px;
+            margin-bottom: 10px;
+            font-family: "ILShakeFest", Arial, sans-serif;
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 37px;
+            color: #000000;
+         }
+
+         .table__subtitle {
+            margin-left: 45px;
+            max-width: 279px;
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 20px;
+            line-height: 37px;
+            color: #000000;
+         }
+
+         .table__white-line {
+            position: relative;
+            top: -50px;
+            width: calc(100% + 5px);
+            height: 103px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url('http://newdesign.glockapps.com//wp-content/themes/glock-apps-theme/img/email/old-gray/white-line.png');
+            background-repeat: no-repeat;
+            margin-bottom: -105px;
+            margin-left: -2px;
+         }
+
+         .table__photo {
+            position: relative;
+            top: -45px;
+            width: 90%;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: -75px;
+         }
+
+         .table__middle-text {
+            max-width: 400px;
+            margin-top: 0;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 30px;
+
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 37px;
+         }
+
+         .table__adress {
+            font-family: "ILShakeFest", Arial, sans-serif;
+            margin-bottom: 28px;
+            margin-top: 0;
+         }
+
+         .table__link {
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 37px;
+            color: #000000;
+            margin-top: 0;
+            margin-bottom: 28px;
+            text-decoration: none;
+         }
+
+         .table__alternative {
+            color: #000000;
+            font-size: 20px;
+            margin-bottom: 24px;
+            margin-top: 0;
+         }
+
+         .white__if {
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 27px;
+            letter-spacing: 1px;
+         }
+
+         .white__date {
+            font-weight: 400;
+            font-size: 50px;
+            margin-right: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+         }
+
+         .white-bonus {
+            font-size: 26px;
+            margin-top: 0;
+            margin-bottom: 50px;
+         }
+
+         .table__call-to-action {
+            margin-top: 21px;
+            margin-bottom: 10px;
+            font-size: 30px;
+            font-family: "ILShakeFest", Arial, sans-serif;
+         }
+
+         .table__button {
+            color: white;
+            text-transform: uppercase;
+            font-size: 17px;
+            background-color: black;
+            display: inline-block;
+            margin-top: 0;
+            margin-bottom: 0;
+         }
+
+         .table__button-link {
+            display: inline-block;
+            padding: 14px 30px 6px;
+            color: white;
+            text-decoration: none;
+            font-family: "ILShakeFest", Arial, sans-serif;
+         }
+
+
+         @media screen and (max-width: 624px) {
+            .table {
+               width: 100%;
+            }
+         }
+      </style>
+
+   </head>
+
+   <body class="body">
+
+      <div class="big-bg">
+         <table class="table table--top">
+
+            <tr align="center">
+               <td>
+                  <img
+                     src="http://newdesign.glockapps.com//wp-content/themes/glock-apps-theme/img/email/old-gray/skull.png"
+                     alt="Mister Skull" class="table__mobile__illustration">
+               </td>
+            </tr>
+
+            <tr>
+               <td>
+                  <h1 class="table__title">
+                     Good day,<br>
+                     mine dear friend!
+                  </h1>
+               </td>
+            </tr>
+
+            <tr>
+               <td>
+                  <p class="table__subtitle">
+                     Doth thou knowest what date it is? it is almost Halloween! And I hast plotted an evil resolve to trick thou!
+                  </p>
+               </td>
+            </tr>
+
+            <!-- <tr align="center">
+               <td>
+                  <div class="table__white-line">
+                  </div>
+               </td>
+            </tr> -->
+
+            <tr align="center">
+               <td class="table__photo">
+                  <img
+                     src="http://newdesign.glockapps.com//wp-content/themes/glock-apps-theme/img/email/old-gray/photo.png"
+                     alt="">
+               </td>
+            </tr>
+
+            <tr align="center">
+               <td>
+                  <p class="table__middle-text">
+                     Thou now hast in your possession an image of my Halloween spirit and what I require of thou is simple:
+                     prove that the spirit is firm-set within thou as well - send some candy to mine humble abode
+                  </p>
+               </td>
+            </tr>
+
+         </table>
+
+         <table class="table table--middle">
+
+            <tr align="center">
+               <td>
+                  <p class="table__adress">
+                     <a href="mailto:glockappssupport@glocksoft.com" class="table__link">
+                        glockappssupport@glocksoft.com
+                     </a>
+                  </p>
+               </td>
+            </tr>
+
+            <tr align="center">
+               <td>
+                  <p class="table__alternative">
+                     or a photo of thou in a Halloween costume.
+                  </p>
+               </td>
+            </tr>
+
+            <tr align="center">
+               <td>
+                  <p class="white__if">
+                     If mine wish is not fulfilled when the clock strikes
+                  </p>
+               </td>
+            </tr>
+
+            <tr align="center">
+               <td>
+                  <p class="white__date">
+                     0:00 on November the 1st,
+                  </p>
+               </td>
+            </tr>
+
+            <tr align="center">
+               <td>
+                  <p class="white-bonus">
+                     the treachery shall be afoot!
+                  </p>
+               </td>
+            </tr>
+
+         </table>
+
+         <table class="table table--bottom">
+
+            <tr align="center">
+               <td>
+                  <h2 class="table__call-to-action">
+                     Get more Halloween templates
+                  </h2>
+               </td>
+            </tr>
+
+            <tr align="center">
+               <td>
+                  <p class="table__button">
+                     <a href="mailto:glockappssupport@glocksoft.com" class="table__button-link">Get more now</a>
+                  </p>
+               </td>
+            </tr>
+
+         </table>
+      </div>
+
+   </body>
+
+   </html>
